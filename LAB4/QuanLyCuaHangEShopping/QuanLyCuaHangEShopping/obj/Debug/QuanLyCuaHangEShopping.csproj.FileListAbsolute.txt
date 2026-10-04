@@ -1,0 +1,11 @@
+D:\Hoc\Phương pháp PT hướng đối tượng\LAB4\QuanLyCuaHangEShopping\QuanLyCuaHangEShopping\bin\Debug\QuanLyCuaHangEShopping.exe.config
+D:\Hoc\Phương pháp PT hướng đối tượng\LAB4\QuanLyCuaHangEShopping\QuanLyCuaHangEShopping\bin\Debug\QuanLyCuaHangEShopping.exe
+D:\Hoc\Phương pháp PT hướng đối tượng\LAB4\QuanLyCuaHangEShopping\QuanLyCuaHangEShopping\bin\Debug\QuanLyCuaHangEShopping.pdb
+D:\Hoc\Phương pháp PT hướng đối tượng\LAB4\QuanLyCuaHangEShopping\QuanLyCuaHangEShopping\obj\Debug\QuanLyCuaHangEShopping.csproj.AssemblyReference.cache
+D:\Hoc\Phương pháp PT hướng đối tượng\LAB4\QuanLyCuaHangEShopping\QuanLyCuaHangEShopping\obj\Debug\QuanLyCuaHangEShopping.Forms.FrmDatHang.resources
+D:\Hoc\Phương pháp PT hướng đối tượng\LAB4\QuanLyCuaHangEShopping\QuanLyCuaHangEShopping\obj\Debug\QuanLyCuaHangEShopping.Forms.FrmMain.resources
+D:\Hoc\Phương pháp PT hướng đối tượng\LAB4\QuanLyCuaHangEShopping\QuanLyCuaHangEShopping\obj\Debug\QuanLyCuaHangEShopping.Properties.Resources.resources
+D:\Hoc\Phương pháp PT hướng đối tượng\LAB4\QuanLyCuaHangEShopping\QuanLyCuaHangEShopping\obj\Debug\QuanLyCuaHangEShopping.csproj.GenerateResource.cache
+D:\Hoc\Phương pháp PT hướng đối tượng\LAB4\QuanLyCuaHangEShopping\QuanLyCuaHangEShopping\obj\Debug\QuanLyCuaHangEShopping.csproj.CoreCompileInputs.cache
+D:\Hoc\Phương pháp PT hướng đối tượng\LAB4\QuanLyCuaHangEShopping\QuanLyCuaHangEShopping\obj\Debug\QuanLyCuaHangEShopping.exe
+D:\Hoc\Phương pháp PT hướng đối tượng\LAB4\QuanLyCuaHangEShopping\QuanLyCuaHangEShopping\obj\Debug\QuanLyCuaHangEShopping.pdb
