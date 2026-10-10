@@ -1,0 +1,9 @@
+D:\Hoc\Phương pháp PT hướng đối tượng\LAB5\QuanLyDuLich\QuanLyDuLich\bin\Debug\QuanLyDuLich.exe.config
+D:\Hoc\Phương pháp PT hướng đối tượng\LAB5\QuanLyDuLich\QuanLyDuLich\bin\Debug\QuanLyDuLich.exe
+D:\Hoc\Phương pháp PT hướng đối tượng\LAB5\QuanLyDuLich\QuanLyDuLich\bin\Debug\QuanLyDuLich.pdb
+D:\Hoc\Phương pháp PT hướng đối tượng\LAB5\QuanLyDuLich\QuanLyDuLich\obj\Debug\QuanLyDuLich.csproj.AssemblyReference.cache
+D:\Hoc\Phương pháp PT hướng đối tượng\LAB5\QuanLyDuLich\QuanLyDuLich\obj\Debug\QuanLyDuLich.Properties.Resources.resources
+D:\Hoc\Phương pháp PT hướng đối tượng\LAB5\QuanLyDuLich\QuanLyDuLich\obj\Debug\QuanLyDuLich.csproj.GenerateResource.cache
+D:\Hoc\Phương pháp PT hướng đối tượng\LAB5\QuanLyDuLich\QuanLyDuLich\obj\Debug\QuanLyDuLich.csproj.CoreCompileInputs.cache
+D:\Hoc\Phương pháp PT hướng đối tượng\LAB5\QuanLyDuLich\QuanLyDuLich\obj\Debug\QuanLyDuLich.exe
+D:\Hoc\Phương pháp PT hướng đối tượng\LAB5\QuanLyDuLich\QuanLyDuLich\obj\Debug\QuanLyDuLich.pdb
