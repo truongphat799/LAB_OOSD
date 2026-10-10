@@ -1,14 +1,15 @@
-# BÁO CÁO BÀI TẬP LAB 5: PHƯƠNG PHÁP PHÁT TRIỂN HƯỚNG ĐỐI TƯỢNG (OOD / OOAD)
+# BÁO CÁO BÀI TẬP LAB 5: QUẢN LÝ CÔNG TY DU LỊCH
 
 ---
 
 ## 📌 THÔNG TIN SINH VIÊN & BÀI LAB
 
+* **Môn học:** Phương pháp phát triển phần mềm hướng đối tượng
+* **Tên bài Lab:** LAB5
 * **Họ và tên:** Trương Gia Phát
 * **Mã số sinh viên (MSSV):** 1250080139
-* **Môn học:** Phương pháp phát triển hướng đối tượng
-* **Tên bài Lab:** **Lab 5 – Bài 6: Quản lý công ty du lịch Văn Hóa Việt TP.HCM**
-* **Đơn vị đào tạo:** Khoa Công nghệ Thông tin
+* **Lớp:** 12_ĐH_CNPM2
+* **Giảng viên hướng dẫn:** Thầy Phạm Trọng Huynh
 
 ---
 
