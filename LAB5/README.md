@@ -146,6 +146,3 @@ Giảng viên có thể kiểm tra và chạy lại hệ thống theo các bư�
   👉 **[Thiet_Ke_Form_QuanLyDuLich_DonGian.xlsx](file:///d:/Hoc/Phương%20pháp%20PT%20hướng%20đối%20tượng/LAB5/Thiet_Ke_Form_QuanLyDuLich_DonGian.xlsx)**
 * Để xem sơ đồ UML/ERD, truy cập trang web [app.diagrams.net](https://app.diagrams.net/) (Draw.io), chọn **File $\rightarrow$ Open From $\rightarrow$ Device** và chọn các file `.drawio` trong thư mục `LAB5`.
 
----
-
-*Báo cáo được hoàn thành vào ngày 10/10/2026 bởi sinh viên **Trương Gia Phát (MSSV: 1250080139)**.*
