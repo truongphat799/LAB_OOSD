@@ -5,7 +5,7 @@
 ## 📌 THÔNG TIN SINH VIÊN & BÀI LAB
 
 * **Môn học:** Phương pháp phát triển phần mềm hướng đối tượng
-* **Tên bài Lab:** LAB5
+* **Tên bài Lab:** LAB 5
 * **Họ và tên:** Trương Gia Phát
 * **Mã số sinh viên (MSSV):** 1250080139
 * **Lớp:** 12_ĐH_CNPM2
