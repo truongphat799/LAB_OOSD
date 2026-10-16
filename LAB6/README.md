@@ -1,8 +1,6 @@
 # BÁO CÁO THỰC HÀNH LAB 6
 
-## MÔN HỌC: PHƯƠNG PHÁP PHÁT TRIỂN HƯỚNG ĐỐI TƯỢNG (OOP DEVELOPMENT METHODS)
-
-### ĐỀ TÀI: BÀI 5 - HỆ THỐNG QUẢN LÝ HỒ SƠ BỆNH ÁN BỆNH VIỆN ĐA KHOA QUỐC TẾ
+### ĐỀ TÀI: HỆ THỐNG QUẢN LÝ HỒ SƠ BỆNH ÁN BỆNH VIỆN ĐA KHOA QUỐC TẾ
 
 ---
 
