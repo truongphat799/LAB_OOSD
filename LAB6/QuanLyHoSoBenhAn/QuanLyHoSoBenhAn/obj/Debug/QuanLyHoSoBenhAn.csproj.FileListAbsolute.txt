@@ -1,0 +1,9 @@
+d:\Hoc\Phương pháp PT hướng đối tượng\LAB6\QuanLyHoSoBenhAn\QuanLyHoSoBenhAn\bin\Debug\QuanLyHoSoBenhAn.exe.config
+d:\Hoc\Phương pháp PT hướng đối tượng\LAB6\QuanLyHoSoBenhAn\QuanLyHoSoBenhAn\bin\Debug\QuanLyHoSoBenhAn.exe
+d:\Hoc\Phương pháp PT hướng đối tượng\LAB6\QuanLyHoSoBenhAn\QuanLyHoSoBenhAn\bin\Debug\QuanLyHoSoBenhAn.pdb
+d:\Hoc\Phương pháp PT hướng đối tượng\LAB6\QuanLyHoSoBenhAn\QuanLyHoSoBenhAn\obj\Debug\QuanLyHoSoBenhAn.exe
+d:\Hoc\Phương pháp PT hướng đối tượng\LAB6\QuanLyHoSoBenhAn\QuanLyHoSoBenhAn\obj\Debug\QuanLyHoSoBenhAn.pdb
+D:\Hoc\Phương pháp PT hướng đối tượng\LAB6\QuanLyHoSoBenhAn\QuanLyHoSoBenhAn\obj\Debug\QuanLyHoSoBenhAn.csproj.AssemblyReference.cache
+D:\Hoc\Phương pháp PT hướng đối tượng\LAB6\QuanLyHoSoBenhAn\QuanLyHoSoBenhAn\obj\Debug\QuanLyHoSoBenhAn.csproj.CoreCompileInputs.cache
+D:\Hoc\Phương pháp PT hướng đối tượng\LAB6\QuanLyHoSoBenhAn\QuanLyHoSoBenhAn\obj\Debug\QuanLyHoSoBenhAn.Forms.FrmMain.resources
+D:\Hoc\Phương pháp PT hướng đối tượng\LAB6\QuanLyHoSoBenhAn\QuanLyHoSoBenhAn\obj\Debug\QuanLyHoSoBenhAn.csproj.GenerateResource.cache
