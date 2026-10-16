@@ -8,12 +8,12 @@
 
 ## 1. THÔNG TIN SINH VIÊN THỰC HIỆN
 
-- **Họ và Tên:** Trương Gia Phát
-- **Mã số sinh viên (MSSV):** 1250080139
-- **Email sinh viên:** 1250080139@sv.hcmunre.edu.vn
-- **Lớp / Khóa:** Đại học Chính quy - Ngành Công nghệ Thông tin
-- **Trường:** Đại học Tài nguyên và Môi trường TP.HCM (HCMUNRE)
-- **Tên bài thực hành:** LAB 6 - Bài 5: Phân tích, Thiết kế CSDL & Lập trình Hệ thống Quản lý Hồ sơ Bệnh án Điện tử
+* **Môn học:** Phương pháp phát triển phần mềm hướng đối tượng
+* **Tên bài Lab:** LAB 6
+* **Họ và tên:** Trương Gia Phát
+* **Mã số sinh viên (MSSV):** 1250080139
+* **Lớp:** 12_ĐH_CNPM2
+* **Giảng viên hướng dẫn:** Thầy Phạm Trọng Huynh
 
 ---
 
