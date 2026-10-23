@@ -4,12 +4,12 @@
 ---
 
 ## 1. THÔNG TIN SINH VIÊN & BÀI THỰC HÀNH
-* **Họ và tên**: Trương Gia Phát
-* **Mã số sinh viên (MSSV)**: 1250080139
-* **Lớp**: Phân tích thiết kế hướng đối tượng (OOAD)
-* **Khoa / Trường**: Khoa Công nghệ Thông tin - Trường Đại học Công Thương TP.HCM (HUIT)
-* **Tên bài Lab**: **BÀI 7 - HỆ THỐNG QUẢN LÝ NHÂN SỰ VÀ TIỀN LƯƠNG CÔNG TY SƠN ĐÔNG Á**
-* **Ngày thực hiện**: Tháng 10/2026
+* **Môn học:** Phương pháp phát triển phần mềm hướng đối tượng
+* **Tên bài Lab:** LAB 7
+* **Họ và tên:** Trương Gia Phát
+* **Mã số sinh viên (MSSV):** 1250080139
+* **Lớp:** 12_ĐH_CNPM2
+* **Giảng viên hướng dẫn:** Thầy Phạm Trọng Huynh
 
 ---
 
@@ -172,4 +172,4 @@ Thầy/Cô có thể lựa chọn 1 trong 3 cách sau:
 | **5** | `admin` | `admin@123` | Quản Trị Viên | Bộ phận Công nghệ Thông tin | Toàn quyền quản trị hệ thống, quản lý danh mục, tài khoản và phân quyền. |
 
 ---
-*Tài liệu được đóng gói và bàn giao hoàn chỉnh phục vụ công tác chấm điểm và nghiệm thu bài thực hành số 7.*
+
