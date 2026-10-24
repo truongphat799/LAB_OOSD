@@ -1,0 +1,9 @@
+D:\Hoc\Phương pháp PT hướng đối tượng\LAB2\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
+D:\Hoc\Phương pháp PT hướng đối tượng\LAB2\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe
+D:\Hoc\Phương pháp PT hướng đối tượng\LAB2\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.pdb
+D:\Hoc\Phương pháp PT hướng đối tượng\LAB2\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.AssemblyReference.cache
+D:\Hoc\Phương pháp PT hướng đối tượng\LAB2\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.Resources.resources
+D:\Hoc\Phương pháp PT hướng đối tượng\LAB2\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.cache
+D:\Hoc\Phương pháp PT hướng đối tượng\LAB2\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CoreCompileInputs.cache
+D:\Hoc\Phương pháp PT hướng đối tượng\LAB2\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+D:\Hoc\Phương pháp PT hướng đối tượng\LAB2\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
