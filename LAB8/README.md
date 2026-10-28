@@ -4,12 +4,12 @@
 ---
 
 ### THÔNG TIN SINH VIÊN
+* **Môn học:** Phương pháp phát triển phần mềm hướng đối tượng
+* **Tên bài Lab:** LAB 8
 * **Họ và tên:** Trương Gia Phát
 * **Mã số sinh viên (MSSV):** 1250080139
 * **Lớp:** 12_ĐH_CNPM2
-* **Khoa:** Công Nghệ Thông Tin - Đại học Công Nghệ TP.HCM (HUTECH)
-* **Tên bài thực hành:** **BÀI 2 - HỆ THỐNG QUẢN LÝ CỬA HÀNG NƯỚC GIẢI KHÁT**
-
+* **Giảng viên hướng dẫn:** Thầy Phạm Trọng Huynh
 ---
 
 ### 1. MÔI TRƯỜNG & PHIÊN BẢN CÔNG NGHỆ (ENVIRONMENT & VERSIONS)
