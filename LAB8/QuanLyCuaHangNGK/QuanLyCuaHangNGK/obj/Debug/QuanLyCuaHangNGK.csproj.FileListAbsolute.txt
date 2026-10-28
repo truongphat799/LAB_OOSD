@@ -1,0 +1,10 @@
+d:\Hoc\Phương pháp PT hướng đối tượng\LAB8\QuanLyCuaHangNGK\QuanLyCuaHangNGK\obj\Debug\QuanLyCuaHangNGK.csproj.GenerateResource.Cache
+d:\Hoc\Phương pháp PT hướng đối tượng\LAB8\QuanLyCuaHangNGK\QuanLyCuaHangNGK\obj\Debug\QuanLyCuaHangNGK.Properties.Resources.resources
+d:\Hoc\Phương pháp PT hướng đối tượng\LAB8\QuanLyCuaHangNGK\QuanLyCuaHangNGK\bin\Debug\QuanLyCuaHangNGK.exe.config
+d:\Hoc\Phương pháp PT hướng đối tượng\LAB8\QuanLyCuaHangNGK\QuanLyCuaHangNGK\bin\Debug\QuanLyCuaHangNGK.exe
+d:\Hoc\Phương pháp PT hướng đối tượng\LAB8\QuanLyCuaHangNGK\QuanLyCuaHangNGK\bin\Debug\QuanLyCuaHangNGK.pdb
+d:\Hoc\Phương pháp PT hướng đối tượng\LAB8\QuanLyCuaHangNGK\QuanLyCuaHangNGK\obj\Debug\QuanLyCuaHangNGK.exe
+d:\Hoc\Phương pháp PT hướng đối tượng\LAB8\QuanLyCuaHangNGK\QuanLyCuaHangNGK\obj\Debug\QuanLyCuaHangNGK.pdb
+D:\Hoc\Phương pháp PT hướng đối tượng\LAB8\QuanLyCuaHangNGK\QuanLyCuaHangNGK\obj\Debug\QuanLyCuaHangNGK.csproj.AssemblyReference.cache
+D:\Hoc\Phương pháp PT hướng đối tượng\LAB8\QuanLyCuaHangNGK\QuanLyCuaHangNGK\obj\Debug\QuanLyCuaHangNGK.Forms.FrmMain.resources
+D:\Hoc\Phương pháp PT hướng đối tượng\LAB8\QuanLyCuaHangNGK\QuanLyCuaHangNGK\obj\Debug\QuanLyCuaHangNGK.csproj.CoreCompileInputs.cache
