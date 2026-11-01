@@ -1,0 +1,189 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram id="ActivityDiagram_Doc_Mau" name="Activity Diagram - Quy Trinh Tuyen Dung Thu Viec Den Ky Hop Dong">
+    <mxGraphModel dx="1489" dy="894" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="2400" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="start" value="" style="ellipse;fillColor=#1A1A1A;" parent="1" vertex="1">
+          <mxGeometry x="485" y="40" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="step1" value="Tiếp nhận hồ sơ ứng viên tại phòng Nhân sự&#xa;và kiểm tra tính hợp lệ" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="380" y="100" width="240" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="dec1" value="Loại nhân sự?" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="435" y="170" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="step_tai" value="Tra cứu lý lịch hồ sơ nhân sự trên hệ thống&#xa;(theo Mã NV, CCCD hoặc Họ tên)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="190" y="240" width="240" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="step_moi1" value="Điền phiếu thông tin nhân sự, nộp bằng cấp,&#xa;chứng chỉ chuyên môn và 02 ảnh chân dung 3x4" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="570" y="240" width="250" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="step_moi2" value="Soạn thảo &amp; ký duyệt Quyết định tuyển dụng thử việc&#xa;(ghi rõ thời gian, phân xưởng, mức lương thử việc)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="565" y="310" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m1" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="485" y="380" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="step2" value="Bàn giao nhân sự về đơn vị; Trưởng phòng/xưởng hướng dẫn,&#xa;giám sát an toàn hóa chất sơn và theo dõi thử việc" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="365" y="440" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dec2" value="Kết quả thử việc?" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="425" y="520" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="step_fail" value="Chấm dứt thử việc, quyết toán lương ngày công&#xa;&amp; thanh lý hồ sơ không trúng tuyển" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="670" y="520" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="end_fail" value="" style="ellipse;html=1;shape=endState;fillColor=#1A1A1A;" parent="1" vertex="1">
+          <mxGeometry x="940" y="530" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="step_pass" value="Trưởng bộ phận lập bản đánh giá Đạt, gửi tờ trình&#xa;đề xuất ký Hợp đồng lao động chính thức về Nhân sự" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="365" y="600" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dec3" value="Loại hợp đồng?" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="430" y="680" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="step_dh" value="Soạn HĐLĐ dài hạn &amp; lập hồ sơ BHYT, BHXH&#xa;(đăng ký mã BHXH, cấu hình trích nộp 10.5% LCB)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="220" y="760" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="step_nh" value="Soạn HĐLĐ ngắn hạn / thời vụ xưởng sơn&#xa;(không bắt buộc trích nộp bảo hiểm xã hội)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="540" y="760" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="m2" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="485" y="840" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m_loop" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="485" y="890" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="step_qd" value="Nhân sự thiết lập dự thảo Quyết định chức vụ (PCCV)&#xa;&amp; Quyết định lương ban đầu (LCB, phụ cấp lương)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="365" y="940" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dec4" value="Vị trí tiếp xúc hóa chất dung môi sơn?" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="385" y="1020" width="230" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="step_dochai" value="Cập nhật Phụ cấp độc hại sơn bắt buộc (1.2M - 2.0M)&#xa;vào Quyết định lương &amp; cấp phát bảo hộ lao động" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="190" y="1100" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="m3" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="485" y="1170" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="step_sign" value="Giám đốc xem xét &amp; ký kết chính thức bộ 3 văn bản:&#xa;1. Hợp đồng lao động&#xa;2. Quyết định chức vụ&#xa;3. Quyết định lương" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="365" y="1230" width="270" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="note1" value="Hồ sơ tự động đồng bộ sang&#xa;Ban chấm công &amp; Kế toán lương&#xa;để chuẩn bị xếp ca &amp; tính lương" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontSize=10;align=left;" parent="1" vertex="1">
+          <mxGeometry x="670" y="1235" width="200" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="link_note1" style="endArrow=none;dashed=1;html=1;" parent="1" source="step_sign" target="note1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="step_kichhoat" value="Chuyển trạng thái nhân sự thành &#39;Chính thức&#39;,&#xa;bàn giao bản sao HĐLĐ cho người lao động" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="365" y="1320" width="270" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="step_dongbo" value="Ban chấm công xếp ca làm việc tuần; Kế toán lương&#xa;thiết lập danh mục chi trả &amp; tài khoản ATM ngân hàng" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="365" y="1390" width="270" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="step_sohoa" value="Phòng Nhân sự số hóa &amp; lưu trữ toàn bộ thông tin đợt tuyển dụng:&#xa;ngày vào làm, thử việc, HĐLĐ, BHYT/BHXH, chức vụ &amp; lương" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="340" y="1460" width="320" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="note2" value="Phục vụ theo dõi diễn biến công tác,&#xa;đánh giá năng suất, xét thi đua khen thưởng,&#xa;kỷ luật và phân định trách nhiệm quản lý" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontSize=10;align=left;" parent="1" vertex="1">
+          <mxGeometry x="690" y="1460" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="link_note2" style="endArrow=none;dashed=1;html=1;" parent="1" source="step_sohoa" target="note2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="end_node" value="" style="ellipse;html=1;shape=endState;fillColor=#1A1A1A;" parent="1" vertex="1">
+          <mxGeometry x="485" y="1540" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c1" style="endArrow=classic;html=1;" parent="1" source="start" target="step1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2" style="endArrow=classic;html=1;" parent="1" source="step1" target="dec1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c_tai" value="Tái tuyển dụng / Đã có mã NV" style="endArrow=classic;html=1;fontSize=10;" parent="1" source="dec1" target="step_tai" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c_moi" value="Tuyển mới" style="endArrow=classic;html=1;fontSize=10;" parent="1" source="dec1" target="step_moi1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c_moi2" style="endArrow=classic;html=1;" parent="1" source="step_moi1" target="step_moi2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c_m1_1" style="endArrow=classic;html=1;" parent="1" source="step_tai" target="m1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c_m1_2" style="endArrow=classic;html=1;" parent="1" source="step_moi2" target="m1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" style="endArrow=classic;html=1;" parent="1" source="m1" target="step2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" style="endArrow=classic;html=1;" parent="1" source="step2" target="dec2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c_fail" value="&lt;font style=&quot;color: rgb(26, 26, 26);&quot;&gt;Không đạt&lt;/font&gt;" style="endArrow=classic;html=1;fontColor=#B85450;fontSize=10;" parent="1" source="dec2" target="step_fail" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c_fail_end" style="endArrow=classic;html=1;" parent="1" source="step_fail" target="end_fail" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c_pass" value="Đạt yêu cầu" style="endArrow=classic;html=1;fontSize=10;" parent="1" source="dec2" target="step_pass" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c5" style="endArrow=classic;html=1;" parent="1" source="step_pass" target="dec3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c_dh" value="Hợp đồng dài hạn" style="endArrow=classic;html=1;fontSize=10;" parent="1" source="dec3" target="step_dh" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c_nh" value="Hợp đồng ngắn hạn" style="endArrow=classic;html=1;fontSize=10;" parent="1" source="dec3" target="step_nh" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c_m2_1" style="endArrow=classic;html=1;" parent="1" source="step_dh" target="m2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c_m2_2" style="endArrow=classic;html=1;" parent="1" source="step_nh" target="m2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c6" style="endArrow=classic;html=1;" parent="1" source="m2" target="m_loop" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c7" style="endArrow=classic;html=1;" parent="1" source="m_loop" target="step_qd" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c8" style="endArrow=classic;html=1;" parent="1" source="step_qd" target="dec4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c_co" value="Tiếp xúc hóa chất sơn" style="endArrow=classic;html=1;fontSize=10;" parent="1" source="dec4" target="step_dochai" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c_ko" value="Không tiếp xúc" style="endArrow=classic;html=1;fontSize=10;edgeStyle=orthogonalEdgeStyle;rounded=0;" parent="1" source="dec4" target="m3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="1047" />
+              <mxPoint x="640" y="1185" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c_m3_1" style="endArrow=classic;html=1;" parent="1" source="step_dochai" target="m3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c9" style="endArrow=classic;html=1;" parent="1" source="m3" target="step_sign" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c10" style="endArrow=classic;html=1;" parent="1" source="step_sign" target="step_kichhoat" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c11" style="endArrow=classic;html=1;" parent="1" source="step_kichhoat" target="step_dongbo" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c12" style="endArrow=classic;html=1;" parent="1" source="step_dongbo" target="step_sohoa" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c13" style="endArrow=classic;html=1;" parent="1" source="step_sohoa" target="end_node" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

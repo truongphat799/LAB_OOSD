@@ -1,0 +1,196 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram id="ActivityDiagram_QuyTrinhBanNuocGiaiKhat" name="Activity Diagram - Quy Trinh Ban Nuoc Giai Khat">
+    <mxGraphModel dx="791" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1450" pageHeight="950" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="start_node" value="" style="ellipse;fillColor=#222222;strokeColor=#222222;" parent="1" vertex="1">
+          <mxGeometry x="599" y="30" width="22" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="act_1" value="Tiep nhan yeu cau mua NGK tu khach hang" style="rounded=1;absoluteArcSize=1;arcSize=25;strokeWidth=1;whiteSpace=wrap;fontSize=13;fontFamily=Arial;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="460" y="85" width="300" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_start_1" style="endArrow=classic;endSize=8;fontSize=12;fontColor=#000000;strokeColor=#000000;curved=0;rounded=0;" parent="1" source="start_node" target="act_1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="act_2" value="Kiem tra so luong ton kho trong he thong" style="rounded=1;absoluteArcSize=1;arcSize=25;strokeWidth=1;whiteSpace=wrap;fontSize=13;fontFamily=Arial;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="460" y="155" width="300" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_1_2" style="endArrow=classic;endSize=8;fontSize=12;fontColor=#000000;strokeColor=#000000;curved=0;rounded=0;" parent="1" source="act_1" target="act_2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dec_1" value="" style="rhombus;strokeWidth=1;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="597" y="225" width="26" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_2_dec1" style="endArrow=classic;endSize=8;fontSize=12;fontColor=#000000;strokeColor=#000000;curved=0;rounded=0;" parent="1" source="act_2" target="dec_1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="act_3a" value="Lap Hoa don tinh tien ban hang" style="rounded=1;absoluteArcSize=1;arcSize=25;strokeWidth=1;whiteSpace=wrap;fontSize=13;fontFamily=Arial;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="180" y="295" width="260" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_dec1_3a" value="Kho co du hang" style="endArrow=classic;endSize=8;fontSize=12;fontColor=#000000;strokeColor=#000000;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="dec_1" target="act_3a" edge="1">
+          <mxGeometry x="-0.2" y="-10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dec_2a" value="" style="rhombus;strokeWidth=1;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="297" y="365" width="26" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_3a_dec2a" style="endArrow=classic;endSize=8;fontSize=12;fontColor=#000000;strokeColor=#000000;curved=0;rounded=0;" parent="1" source="act_3a" target="dec_2a" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="act_4a" value="Khach hang thanh toan tien ngay tai quay" style="rounded=1;absoluteArcSize=1;arcSize=25;strokeWidth=1;whiteSpace=wrap;fontSize=13;fontFamily=Arial;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="10" y="435" width="260" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_dec2a_4a" value="Thanh toan ngay" style="endArrow=classic;endSize=8;fontSize=12;fontColor=#000000;strokeColor=#000000;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="dec_2a" target="act_4a" edge="1">
+          <mxGeometry x="-0.3" y="-8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="act_5a" value="Giao hang ngay tai quay va in hoa don" style="rounded=1;absoluteArcSize=1;arcSize=25;strokeWidth=1;whiteSpace=wrap;fontSize=13;fontFamily=Arial;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="10" y="505" width="260" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_4a_5a" style="endArrow=classic;endSize=8;fontSize=12;fontColor=#000000;strokeColor=#000000;curved=0;rounded=0;" parent="1" source="act_4a" target="act_5a" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="act_6a" value="He thong tu dong cap nhat giam ton kho" style="rounded=1;absoluteArcSize=1;arcSize=25;strokeWidth=1;whiteSpace=wrap;fontSize=13;fontFamily=Arial;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="10" y="575" width="260" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_5a_6a" style="endArrow=classic;endSize=8;fontSize=12;fontColor=#000000;strokeColor=#000000;curved=0;rounded=0;" parent="1" source="act_5a" target="act_6a" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="act_4b" value="Lap Phieu ghi no cho Khach quen" style="rounded=1;absoluteArcSize=1;arcSize=25;strokeWidth=1;whiteSpace=wrap;fontSize=13;fontFamily=Arial;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="310" y="435" width="250" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_dec2a_4b" value="Khach quen tra cham" style="endArrow=classic;endSize=8;fontSize=12;fontColor=#000000;strokeColor=#000000;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="dec_2a" target="act_4b" edge="1">
+          <mxGeometry x="-0.3" y="8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="435" y="378" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="note_4b" value="Luu so tien no, ngay hen tra,&#xa;ly do no &amp; thong tin NV lap phieu" style="shape=note;size=14;strokeWidth=0.5;fontSize=11;fontFamily=Arial;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=4;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="580" y="432" width="180" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="note_link_4b" style="endArrow=none;dashed=1;strokeColor=#000000;" parent="1" source="note_4b" target="act_4b" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="act_5b" value="Ban giao hang cho khach quen tai quay" style="rounded=1;absoluteArcSize=1;arcSize=25;strokeWidth=1;whiteSpace=wrap;fontSize=13;fontFamily=Arial;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="310" y="505" width="250" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_4b_5b" style="endArrow=classic;endSize=8;fontSize=12;fontColor=#000000;strokeColor=#000000;curved=0;rounded=0;" parent="1" source="act_4b" target="act_5b" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="act_6b" value="Cap nhat giam ton kho va Ghi nhan cong no" style="rounded=1;absoluteArcSize=1;arcSize=25;strokeWidth=1;whiteSpace=wrap;fontSize=13;fontFamily=Arial;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="310" y="575" width="250" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_5b_6b" style="endArrow=classic;endSize=8;fontSize=12;fontColor=#000000;strokeColor=#000000;curved=0;rounded=0;" parent="1" source="act_5b" target="act_6b" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dec_2b" value="" style="rhombus;strokeWidth=1;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="987" y="225" width="26" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_dec1_dec2b" value="Kho khong du hang" style="endArrow=classic;endSize=8;fontSize=12;fontColor=#000000;strokeColor=#000000;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="dec_1" target="dec_2b" edge="1">
+          <mxGeometry x="-0.2" y="-10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="act_4c" value="Thong bao het hang va Tu choi yeu cau" style="rounded=1;absoluteArcSize=1;arcSize=25;strokeWidth=1;whiteSpace=wrap;fontSize=13;fontFamily=Arial;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="1260" y="225" width="250" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_dec2b_4c" value="Khach vang lai" style="endArrow=classic;endSize=8;fontSize=12;fontColor=#000000;strokeColor=#000000;curved=0;rounded=0;" parent="1" source="dec_2b" target="act_4c" edge="1">
+          <mxGeometry x="-0.1" y="-8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="act_4d" value="Lap Hoa don va Phieu hen giao hang nhieu dot" style="rounded=1;absoluteArcSize=1;arcSize=25;strokeWidth=1;whiteSpace=wrap;fontSize=13;fontFamily=Arial;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="870" y="295" width="260" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_dec2b_4d" value="Khach quen" style="endArrow=classic;endSize=8;fontSize=12;fontColor=#000000;strokeColor=#000000;curved=0;rounded=0;" parent="1" source="dec_2b" target="act_4d" edge="1">
+          <mxGeometry x="-0.3" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="note_4d" value="Luu thong tin hoa don &amp; phieu hen&#xa;de phuc vu tra cuu va thong ke" style="shape=note;size=14;strokeWidth=0.5;fontSize=11;fontFamily=Arial;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=4;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="292" width="200" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="note_link_4d" style="endArrow=none;dashed=1;strokeColor=#000000;" parent="1" source="note_4d" target="act_4d" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="act_5d" value="Cua hang tien hanh nhap them hang tu NCC" style="rounded=1;absoluteArcSize=1;arcSize=25;strokeWidth=1;whiteSpace=wrap;fontSize=13;fontFamily=Arial;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="870" y="365" width="260" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_4d_5d" style="endArrow=classic;endSize=8;fontSize=12;fontColor=#000000;strokeColor=#000000;curved=0;rounded=0;" parent="1" source="act_4d" target="act_5d" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="act_6d" value="Xuat kho ban giao hang theo tung dot hen" style="rounded=1;absoluteArcSize=1;arcSize=25;strokeWidth=1;whiteSpace=wrap;fontSize=13;fontFamily=Arial;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="870" y="435" width="260" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_5d_6d" style="endArrow=classic;endSize=8;fontSize=12;fontColor=#000000;strokeColor=#000000;curved=0;rounded=0;" parent="1" source="act_5d" target="act_6d" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="act_7d" value="Cap nhat trang thai phieu hen va Giam ton kho" style="rounded=1;absoluteArcSize=1;arcSize=25;strokeWidth=1;whiteSpace=wrap;fontSize=13;fontFamily=Arial;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="870" y="505" width="260" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_6d_7d" style="endArrow=classic;endSize=8;fontSize=12;fontColor=#000000;strokeColor=#000000;curved=0;rounded=0;" parent="1" source="act_6d" target="act_7d" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dec_3" value="" style="rhombus;strokeWidth=1;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="987" y="575" width="26" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_7d_dec3" style="endArrow=classic;endSize=8;fontSize=12;fontColor=#000000;strokeColor=#000000;curved=0;rounded=0;" parent="1" source="act_7d" target="dec_3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_loop_not_done" value="Chua giao du cac dot" style="endArrow=classic;endSize=8;fontSize=12;fontColor=#000000;strokeColor=#000000;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="dec_3" target="act_6d" edge="1">
+          <mxGeometry x="-0.4527" y="8" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1200" y="588" />
+              <mxPoint x="1200" y="454" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="act_8d" value="Xac nhan hoan tat giao du hang va Dong hoa don" style="rounded=1;absoluteArcSize=1;arcSize=25;strokeWidth=1;whiteSpace=wrap;fontSize=13;fontFamily=Arial;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="860" y="645" width="280" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_dec3_8d" value="Da giao du tat ca cac dot" style="endArrow=classic;endSize=8;fontSize=12;fontColor=#000000;strokeColor=#000000;curved=0;rounded=0;" parent="1" source="dec_3" target="act_8d" edge="1">
+          <mxGeometry x="-0.2" y="8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="end_node" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="508" y="740" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_6a_end" style="endArrow=classic;endSize=8;fontSize=12;fontColor=#000000;strokeColor=#000000;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="act_6a" target="end_node" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="752" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_6b_end" style="endArrow=classic;endSize=8;fontSize=12;fontColor=#000000;strokeColor=#000000;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="act_6b" target="end_node" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="435" y="752" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_8d_end" style="endArrow=classic;endSize=8;fontSize=12;fontColor=#000000;strokeColor=#000000;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="act_8d" target="end_node" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1000" y="752" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_4c_end" style="endArrow=classic;endSize=8;fontSize=12;fontColor=#000000;strokeColor=#000000;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" parent="1" source="act_4c" target="end_node" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1448" y="752" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
