@@ -1,0 +1,94 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram id="Act_BanVeKhachLe" name="Activity Diagram - Ban Ve Khach Le">
+    <mxGraphModel dx="992" dy="596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="start_1" value="" style="ellipse;fillColor=#000000;strokeColor=#000000;html=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="40" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="act1_1" value="Khách lẻ đến điểm bán vé, yêu cầu mua vé theo tour" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffff;strokeColor=#000000;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="270" y="100" width="290" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="act1_2" value="Nhân viên tra cứu lịch chuyến đi và danh sách điểm đón quy định" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffff;strokeColor=#000000;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="250" y="180" width="330" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="act1_3" value="Khách chọn chuyến đi, điểm đón và số lượng vé (&lt; 12)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffff;strokeColor=#000000;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="260" y="260" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dec1_1" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="395" y="340" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="act1_hetcho" value="Thông báo hết chỗ, đề xuất chuyến đi khác" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffff;strokeColor=#000000;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="640" y="335" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="act1_4" value="Tính tổng tiền vé và yêu cầu thanh toán 100% ngay" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffff;strokeColor=#000000;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="270" y="420" width="290" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dec1_2" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="395" y="500" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="act1_chuatra" value="Hủy giao dịch do chưa thanh toán đủ tiền vé" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffff;strokeColor=#000000;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="600" y="495" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="act1_5" value="Thu tiền vé và xuất vé du lịch kèm hóa đơn" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffff;strokeColor=#000000;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="280" y="580" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="act1_6" value="Hệ thống tự động cập nhật giảm số chỗ trống của chuyến" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffff;strokeColor=#000000;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="260" y="660" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="act1_7" value="Bàn giao vé cho khách và thông báo giờ đón quy định" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffff;strokeColor=#000000;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="265" y="740" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="end1_1" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="400" y="825" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="end1_2" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="880" y="505" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e_5001" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#000000;fontSize=11;" parent="1" source="start_1" target="act1_1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_5002" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#000000;fontSize=11;" parent="1" source="act1_1" target="act1_2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_5003" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#000000;fontSize=11;" parent="1" source="act1_2" target="act1_3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_5004" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#000000;fontSize=11;" parent="1" source="act1_3" target="dec1_1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_5005" value="Còn đủ chỗ" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#000000;fontSize=11;" parent="1" source="dec1_1" target="act1_4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_5006" value="Hết chỗ" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#000000;fontSize=11;" parent="1" source="dec1_1" target="act1_hetcho" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_5007" value="Chọn lại chuyến" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#000000;fontSize=11;" parent="1" source="act1_hetcho" target="act1_3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_5008" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#000000;fontSize=11;" parent="1" source="act1_4" target="dec1_2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_5009" value="Đã thanh toán 100%" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#000000;fontSize=11;" parent="1" source="dec1_2" target="act1_5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_5010" value="Chưa thanh toán đủ" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#000000;fontSize=11;" parent="1" source="dec1_2" target="act1_chuatra" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_5011" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#000000;fontSize=11;" parent="1" source="act1_chuatra" target="end1_2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_5012" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#000000;fontSize=11;" parent="1" source="act1_5" target="act1_6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_5013" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#000000;fontSize=11;" parent="1" source="act1_6" target="act1_7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_5014" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#000000;fontSize=11;" parent="1" source="act1_7" target="end1_1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,265 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram id="UseCaseDiagram_TongQuat" name="Use Case Diagram Tong Quat - Chuan Actor">
+    <mxGraphModel dx="2977" dy="1789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2600" pageHeight="2000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="system_boundary" value="HỆ THỐNG QUẢN LÝ CÔNG TY DU LỊCH VĂN HÓA VIỆT TP.HCM" style="shape=rect;swimlane;startSize=32;fontSize=14;fontStyle=1;align=center;strokeWidth=2;dashed=0;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="430" y="40" width="1430" height="1580" as="geometry" />
+        </mxCell>
+        <mxCell id="UC_QuanLyNguoiDung" value="Quản lý tài khoản &amp; Phân quyền người dùng" style="shape=ellipse;fontSize=12;fontStyle=0;align=center;strokeWidth=1.5;whiteSpace=wrap;" parent="system_boundary" vertex="1">
+          <mxGeometry x="920" y="155" width="220" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="UC_CauHinhDanhMuc" value="Cấu hình danh mục hệ thống" style="shape=ellipse;fontSize=12;fontStyle=0;align=center;strokeWidth=1.5;whiteSpace=wrap;" parent="system_boundary" vertex="1">
+          <mxGeometry x="1000" y="220" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UC_SaoLuuPhucHoi" value="Sao lưu &amp; Phục hồi dữ liệu" style="shape=ellipse;fontSize=12;fontStyle=0;align=center;strokeWidth=1.5;whiteSpace=wrap;" parent="system_boundary" vertex="1">
+          <mxGeometry x="940" y="70" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UC_QuanLyTour" value="Quản lý thông tin Tour" style="shape=ellipse;fontSize=12;fontStyle=0;align=center;strokeWidth=1.5;whiteSpace=wrap;" parent="system_boundary" vertex="1">
+          <mxGeometry x="910" y="320" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UC_QuanLyNoiDungChan" value="Quản lý Nơi dừng chân &amp; Phương tiện di chuyển" style="shape=ellipse;fontSize=12;fontStyle=0;align=center;strokeWidth=1.5;whiteSpace=wrap;" parent="system_boundary" vertex="1">
+          <mxGeometry x="890" y="470" width="220" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="UC_QuangBaWebsite" value="Đồng bộ &amp; Quảng bá Tour lên Website công ty" style="shape=ellipse;fontSize=12;fontStyle=0;align=center;strokeWidth=1.5;whiteSpace=wrap;" parent="system_boundary" vertex="1">
+          <mxGeometry x="880" y="393" width="220" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="UC_QuanLyChuyenDi" value="Quản lý Chuyến du lịch (mở chuyến cho khách lẻ)" style="shape=ellipse;fontSize=12;fontStyle=0;align=center;strokeWidth=1.5;whiteSpace=wrap;" parent="system_boundary" vertex="1">
+          <mxGeometry x="900" y="550" width="220" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="UC_KiemTraTrungLich" value="Kiểm tra xung đột lịch trình HDV" style="shape=ellipse;fontSize=12;fontStyle=0;align=center;strokeWidth=1.5;whiteSpace=wrap;" parent="system_boundary" vertex="1">
+          <mxGeometry x="605" y="623" width="190" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="UC_TraCuuTour" value="Tra cứu thông tin Tour &amp; Lịch chuyến đi" style="shape=ellipse;fontSize=12;fontStyle=0;align=center;strokeWidth=1.5;whiteSpace=wrap;" parent="system_boundary" vertex="1">
+          <mxGeometry x="320" y="640" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UC_NhapDSBaoHiem" value="Lập danh sách thành viên mua bảo hiểm" style="shape=ellipse;fontSize=12;fontStyle=0;align=center;strokeWidth=1.5;whiteSpace=wrap;" parent="system_boundary" vertex="1">
+          <mxGeometry x="590" y="902" width="220" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="UC_BanVeKhachLe" value="Bán vé du lịch cho khách lẻ (chọn chuyến, điểm đón)" style="shape=ellipse;fontSize=12;fontStyle=0;align=center;strokeWidth=1.5;whiteSpace=wrap;" parent="system_boundary" vertex="1">
+          <mxGeometry x="185" y="1043" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="UC_ThuTienCoc" value="Thu tiền đặt cọc đoàn (bắt buộc khi đăng ký)" style="shape=ellipse;fontSize=12;fontStyle=0;align=center;strokeWidth=1.5;whiteSpace=wrap;" parent="system_boundary" vertex="1">
+          <mxGeometry x="930" y="780" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UC_ThuTienVe" value="Thu tiền vé khách lẻ (thanh toán 100% ngay)" style="shape=ellipse;fontSize=12;fontStyle=0;align=center;strokeWidth=1.5;whiteSpace=wrap;" parent="system_boundary" vertex="1">
+          <mxGeometry x="900" y="1178" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UC_QuyetToanDoan" value="Quyết toán kinh phí đoàn sau khi hoàn thành tour" style="shape=ellipse;fontSize=12;fontStyle=0;align=center;strokeWidth=1.5;whiteSpace=wrap;" parent="system_boundary" vertex="1">
+          <mxGeometry x="310" y="730" width="220" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="UC_TinhLuongHDV" value="Tính lương tháng HDV (Lương CB + Lương tour)" style="shape=ellipse;fontSize=12;fontStyle=0;align=center;strokeWidth=1.5;whiteSpace=wrap;" parent="system_boundary" vertex="1">
+          <mxGeometry x="1190" y="1190" width="220" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="UC_XemLichCongTac" value="Tra cứu lịch công tác phân công của HDV" style="shape=ellipse;fontSize=12;fontStyle=0;align=center;strokeWidth=1.5;whiteSpace=wrap;" parent="system_boundary" vertex="1">
+          <mxGeometry x="1180" y="1300.5" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UC_QuanLyCSKH" value="Lưu trữ &amp; Khai thác dữ liệu khách hàng đoàn (CRM)" style="shape=ellipse;fontSize=12;fontStyle=0;align=center;strokeWidth=1.5;whiteSpace=wrap;" parent="system_boundary" vertex="1">
+          <mxGeometry x="590" y="1480" width="230" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="UC_GuiKhaoSat" value="Gửi phiếu khảo sát chất lượng (qua link/email/SMS/trực tiếp)" style="shape=ellipse;fontSize=12;fontStyle=0;align=center;strokeWidth=1.5;whiteSpace=wrap;" parent="system_boundary" vertex="1">
+          <mxGeometry x="180" y="1320.5" width="240" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="UC_ThucHienKhaoSat" value="Điền phiếu khảo sát đánh giá &amp; góp ý sau tour" style="shape=ellipse;fontSize=12;fontStyle=0;align=center;strokeWidth=1.5;whiteSpace=wrap;" parent="system_boundary" vertex="1">
+          <mxGeometry x="320" y="550" width="230" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="UC_TongHopBaoCaoKhaoSat" value="Tổng hợp ý kiến góp ý &amp; Báo cáo chất lượng tour" style="shape=ellipse;fontSize=12;fontStyle=0;align=center;strokeWidth=1.5;whiteSpace=wrap;" parent="system_boundary" vertex="1">
+          <mxGeometry x="440" y="1113" width="230" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_812" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;entryX=0.967;entryY=0.669;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.011;exitY=0.392;exitDx=0;exitDy=0;exitPerimeter=0;fontStyle=0" parent="system_boundary" source="UC_QuanLyDiemThamQuan" target="UC_TraCuuTour" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_813" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;exitX=0.133;exitY=0.859;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.63;entryY=-0.014;entryDx=0;entryDy=0;entryPerimeter=0;fontStyle=0" parent="system_boundary" source="UC_PhanCongHDV" target="UC_DangKyDoan" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_825" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;exitX=0.913;exitY=0.203;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.125;entryY=0.849;entryDx=0;entryDy=0;entryPerimeter=0;fontStyle=0" parent="system_boundary" source="UC_GuiThongBao" target="UC_TongHopBaoCaoKhaoSat" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_834" value="«include»" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endSize=10;fontStyle=0" parent="system_boundary" source="UC_DangKyDoan" target="UC_ThuTienCoc" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_835" value="«include»" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endSize=10;fontStyle=0" parent="system_boundary" source="UC_DangKyDoan" target="UC_QuanLyCSKH" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_836" value="«include»" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endSize=10;fontStyle=0" parent="system_boundary" source="UC_DangKyDoan" target="UC_ThuTienVe" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_837" value="«include»" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endSize=10;fontStyle=0" parent="system_boundary" source="UC_BanVeKhachLe" target="UC_GuiThongBao" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_838" value="«include»" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endSize=10;fontStyle=0" parent="system_boundary" source="UC_PhanCongHDV" target="UC_KiemTraTrungLich" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_839" value="«extend»" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endSize=10;fontStyle=0" parent="system_boundary" source="UC_NhapDSBaoHiem" target="UC_DangKyDoan" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_841" value="«include»" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endSize=10;fontStyle=0" parent="system_boundary" source="UC_GuiKhaoSat" target="UC_GuiThongBao" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UC_PhanCongHDV" value="Phân công HDV dẫn tour (chống trùng chéo lịch)" style="shape=ellipse;fontSize=12;fontStyle=0;align=center;strokeWidth=1.5;whiteSpace=wrap;" parent="system_boundary" vertex="1">
+          <mxGeometry x="910" y="623" width="220" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="UC_QuanLyDiemThamQuan" value="Quản lý Điểm tham quan (di tích, danh thắng)" style="shape=ellipse;fontSize=12;fontStyle=0;align=center;strokeWidth=1.5;whiteSpace=wrap;" parent="system_boundary" vertex="1">
+          <mxGeometry x="925" y="710" width="220" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="UC_GuiThongBao" value="Gửi thông báo xác nhận vé điện tử / link khảo sát" style="shape=ellipse;fontSize=12;fontStyle=0;align=center;strokeWidth=1.5;whiteSpace=wrap;" parent="system_boundary" vertex="1">
+          <mxGeometry x="185" y="1190" width="230" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="Ed_Iplyt3S5KSlBjFcGP-5" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontStyle=0" edge="1" parent="system_boundary" source="UC_BanVeKhachLe" target="UC_DangKyDoan">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="1008" as="sourcePoint" />
+            <mxPoint x="1198" y="1183" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UC_DangKyDoan" value="Lập phiếu đăng ký tour đoàn (chọn ngày đi, điểm đón)" style="shape=ellipse;fontSize=12;fontStyle=0;align=center;strokeWidth=1.5;whiteSpace=wrap;" parent="system_boundary" vertex="1">
+          <mxGeometry x="690" y="1043" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="UC_HuyDoanMatCoc" value="Xử lý hủy tour (tịch thu toàn bộ tiền cọc)" style="shape=ellipse;fontSize=12;fontStyle=0;align=center;strokeWidth=1.5;whiteSpace=wrap;" parent="system_boundary" vertex="1">
+          <mxGeometry x="1190" y="1110" width="210" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_840" value="«extend»" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endSize=10;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontStyle=0" parent="system_boundary" source="UC_HuyDoanMatCoc" target="UC_DangKyDoan" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_817" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;fontStyle=0" parent="system_boundary" source="UC_HuyDoanMatCoc" target="UC_ThuTienCoc" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_Admin" value="QuanTriVien" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=13;fontStyle=1;align=center;strokeWidth=1.5;" parent="1" vertex="1">
+          <mxGeometry x="1950" y="90" width="50" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_803" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;entryX=1.003;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="actor_Admin" target="UC_QuanLyNguoiDung" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_804" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="actor_Admin" target="UC_CauHinhDanhMuc" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_805" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" parent="1" source="actor_Admin" target="UC_SaoLuuPhucHoi" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_NVDieuHanh" value="NhanVienDieuHanh&amp;nbsp;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=13;fontStyle=1;align=center;strokeWidth=1.5;" parent="1" vertex="1">
+          <mxGeometry x="1960" y="518" width="50" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_806" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;entryX=0.941;entryY=0.793;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="actor_NVDieuHanh" target="UC_QuanLyTour" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_807" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" parent="1" source="actor_NVDieuHanh" target="UC_QuanLyNoiDungChan" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_808" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="actor_NVDieuHanh" target="UC_QuanLyDiemThamQuan" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_809" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;entryX=0.964;entryY=0.743;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="actor_NVDieuHanh" target="UC_QuangBaWebsite" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_810" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;entryX=0.966;entryY=0.367;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="actor_NVDieuHanh" target="UC_QuanLyChuyenDi" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_811" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="actor_NVDieuHanh" target="UC_PhanCongHDV" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_NVBanVe" value="NhanVienBanVe&amp;nbsp;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=13;fontStyle=1;align=center;strokeWidth=1.5;" parent="1" vertex="1">
+          <mxGeometry x="1970" y="838" width="50" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_814" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;entryX=0.929;entryY=0.265;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="actor_NVBanVe" target="UC_BanVeKhachLe" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_815" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" parent="1" source="actor_NVBanVe" target="UC_ThuTienCoc" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_816" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;entryX=0.77;entryY=0.077;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="actor_NVBanVe" target="UC_ThuTienVe" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ed_Iplyt3S5KSlBjFcGP-1" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;entryX=0.869;entryY=0.826;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="actor_NVBanVe" target="UC_PhanCongHDV">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2130" y="919" as="sourcePoint" />
+            <mxPoint x="1280" y="782" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ed_Iplyt3S5KSlBjFcGP-2" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;entryX=0.949;entryY=0.675;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="actor_NVBanVe" target="UC_QuanLyDiemThamQuan">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2130" y="914" as="sourcePoint" />
+            <mxPoint x="1194" y="558" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor_KeToan" value="KeToan&amp;nbsp;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=13;fontStyle=1;align=center;strokeWidth=1.5;" parent="1" vertex="1">
+          <mxGeometry x="1970" y="1158" width="50" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_818" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" parent="1" source="actor_KeToan" target="UC_HuyDoanMatCoc" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_819" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" parent="1" source="actor_KeToan" target="UC_QuyetToanDoan" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_820" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="actor_KeToan" target="UC_TinhLuongHDV" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_HDV" value="HuongDanVien" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=13;fontStyle=1;align=center;strokeWidth=1.5;" parent="1" vertex="1">
+          <mxGeometry x="1970" y="1438" width="50" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_821" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;entryX=0.901;entryY=0.804;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="actor_HDV" target="UC_XemLichCongTac" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_822" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" parent="1" source="actor_HDV" target="UC_GuiKhaoSat" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_826" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;entryX=0.159;entryY=0.153;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="actor_KhachHang" target="UC_TraCuuTour" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_827" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;entryX=0.077;entryY=0.233;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="actor_KhachHang" target="UC_ThucHienKhaoSat" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ed_Iplyt3S5KSlBjFcGP-4" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" edge="1" parent="1" source="actor_KeToan" target="UC_HuyDoanMatCoc">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1970" y="1191" as="sourcePoint" />
+            <mxPoint x="1277" y="858" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor_CSKH" value="BoPhanCSKH&amp;nbsp;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=13;fontStyle=1;align=center;strokeWidth=1.5;" parent="1" vertex="1">
+          <mxGeometry x="320" y="1335.5" width="50" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_824" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" parent="1" source="actor_CSKH" target="UC_GuiKhaoSat" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ed_Iplyt3S5KSlBjFcGP-3" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;entryX=0.068;entryY=0.736;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="actor_CSKH" target="UC_GuiThongBao">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="1277" as="sourcePoint" />
+            <mxPoint x="1680" y="1463" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_823" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="actor_CSKH" target="UC_QuanLyCSKH" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="1390" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor_KhachDoan" value="KhachDoan&amp;nbsp;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=13;fontStyle=1;align=center;strokeWidth=1.5;" parent="1" vertex="1">
+          <mxGeometry x="320" y="753" width="50" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_KhachLe" value="KhachLe&amp;nbsp;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=13;fontStyle=1;align=center;strokeWidth=1.5;" parent="1" vertex="1">
+          <mxGeometry x="320" y="993" width="50" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_828" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;entryX=0.217;entryY=0.136;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="actor_KhachDoan" target="UC_DangKyDoan" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_KhachHang" value="KhachHang&amp;nbsp;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=13;fontStyle=1;align=center;strokeWidth=1.5;" parent="1" vertex="1">
+          <mxGeometry x="110" y="533" width="50" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_829" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;entryX=0.071;entryY=0.233;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="actor_KhachDoan" target="UC_QuyetToanDoan" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_801" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;endSize=12;fontStyle=1;fontSize=13;" parent="1" source="actor_KhachDoan" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="655" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_830" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;entryX=0.182;entryY=0.113;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="actor_KhachLe" target="UC_BanVeKhachLe" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_802" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;endSize=12;fontStyle=1;fontSize=13;" parent="1" source="actor_KhachLe" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="655" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

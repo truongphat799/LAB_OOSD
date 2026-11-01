@@ -1,0 +1,216 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram id="ActivityDiagram_QuyTrinhTour" name="Activity Diagram - Quy Trinh Tour">
+    <mxGraphModel dx="992" dy="596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="2600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="start" value="" style="ellipse;fillColor=#000000;strokeColor=#000000;html=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="30" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="act_TiepNhan" value="Tiếp nhận yêu cầu đăng ký tour và số lượng khách" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffff;strokeColor=#000000;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="450" y="90" width="330" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dec_KiemTraSoLuong" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="595" y="170" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="act_NhapTTDoan" value="Nhập thông tin cơ quan/gia đình, ngày đi tự chọn&lt;br/&gt;và địa điểm xe đón theo yêu cầu" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffff;strokeColor=#000000;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="130" y="240" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dec_BaoHiem" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="270" y="320" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="act_NhapDSBaoHiem" value="Nhập danh sách thành viên cùng đi mua bảo hiểm&lt;br/&gt;(Họ tên, ngày sinh, số CCCD)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffff;strokeColor=#000000;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="450" y="340" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="merge_BaoHiem" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="270" y="410" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2H7MVWW-4p1Zw511kx1L-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="act_LapPhieuDKDoan" target="act_ThuTienCoc">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="act_LapPhieuDKDoan" value="Lập Phiếu đăng ký đoàn và lưu hồ sơ khách hàng (CRM)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffff;strokeColor=#000000;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="130" y="500" width="320" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="act_ThuTienCoc" value="Thu tiền đặt cọc trước từ đại diện đoàn" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffff;strokeColor=#000000;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="150" y="580" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dec_KiemTraCoc" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="270" y="660" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="act_HuyDoanMatCoc" value="Hủy phiếu đăng ký (tịch thu tiền cọc nếu có)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffff;strokeColor=#000000;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="170" y="750" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="act_ChonChuyenLe" value="Chọn chuyến đi theo lịch công ty (ngày đi, ngày về)&lt;br/&gt;và chọn điểm đón theo quy định" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffff;strokeColor=#000000;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="830" y="240" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dec_ChoTrong" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="970" y="340" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="act_BaoHetCho" value="Thông báo hết chỗ trên chuyến đã chọn" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffff;strokeColor=#000000;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1160" y="335" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="act_ThuTienVeNgay" value="Thu 100% tiền vé ngay tại điểm bán vé" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffff;strokeColor=#000000;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="850" y="430" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="act_XuatVeLe" value="Xuất vé du lịch cho khách lẻ và cập nhật số chỗ trống" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffff;strokeColor=#000000;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="840" y="520" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="merge_DangKy" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="970" y="660" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="act_ChonHDV" value="Chọn HDV phân công (1 HDV/chuyến lẻ, &gt;= 1 HDV/đoàn)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffff;strokeColor=#000000;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="825" y="740" width="330" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dec_TrungLich" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="970" y="830" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="act_BaoTrungLich" value="Cảnh báo xung đột lịch công tác HDV" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffff;strokeColor=#000000;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1240" y="740" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="act_XacNhanPhanCong" value="Xác nhận phân công và gửi thông báo lịch trình cho khách &amp; HDV" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffff;strokeColor=#000000;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="815" y="920" width="350" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="act_DonKhach" value="Xe đón khách tại điểm hẹn (đón tận nơi hoặc điểm quy định)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffff;strokeColor=#000000;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="825" y="1010" width="330" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="act_ThucHienTour" value="HDV dẫn tour qua các nơi dừng chân (đổi phương tiện, ăn, ở)&lt;br/&gt;và tham quan các điểm di tích, danh thắng" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffff;strokeColor=#000000;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="805" y="1100" width="370" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="act_KetThucTPHCM" value="Kết thúc hành trình tour tại TP.HCM" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffff;strokeColor=#000000;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="850" y="1200" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dec_KiemTraLoaiKhach" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="970" y="1280" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="act_QuyetToanDoan" value="Kế toán quyết toán kinh phí đoàn (Tổng tiền - Tiền cọc)&lt;br/&gt;và thu phần tiền còn lại" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffff;strokeColor=#000000;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1090" y="1270" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="merge_QuyetToan" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="970" y="1360" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="act_GuiKhaoSat" value="Gửi phiếu khảo sát chất lượng dịch vụ đến khách hàng" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffff;strokeColor=#000000;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="835" y="1430" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="act_TiepNhanGopY" value="Khách hàng điền phiếu khảo sát, hệ thống ghi nhận góp ý phục vụ CSKH" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffff;strokeColor=#000000;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="815" y="1510" width="350" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="end" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="550" y="1462.5" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="note_1" value="Đoàn hủy chuyến trước khi đi&lt;br/&gt;sẽ bị mất toàn bộ tiền đặt cọc&lt;br/&gt;theo quy định BR05" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffffff;strokeColor=#000000;size=14;fontSize=11;align=left;" parent="1" vertex="1">
+          <mxGeometry x="465" y="740" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_1501" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#000000;fontSize=11;" parent="1" source="start" target="act_TiepNhan" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_1502" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#000000;fontSize=11;" parent="1" source="act_TiepNhan" target="dec_KiemTraSoLuong" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_1503" value="Số lượng &amp;gt;= 12 người (Khách đoàn)" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#000000;fontSize=11;" parent="1" source="dec_KiemTraSoLuong" target="act_NhapTTDoan" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_1504" value="Số lượng &amp;lt; 12 người (Khách lẻ)" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#000000;fontSize=11;" parent="1" source="dec_KiemTraSoLuong" target="act_ChonChuyenLe" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_1505" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#000000;fontSize=11;" parent="1" source="act_NhapTTDoan" target="dec_BaoHiem" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_1506" value="Có mua bảo hiểm" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#000000;fontSize=11;" parent="1" source="dec_BaoHiem" target="act_NhapDSBaoHiem" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_1507" value="Không mua" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#000000;fontSize=11;" parent="1" source="dec_BaoHiem" target="merge_BaoHiem" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_1508" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#000000;fontSize=11;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="act_NhapDSBaoHiem" target="merge_BaoHiem" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_1509" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#000000;fontSize=11;" parent="1" source="merge_BaoHiem" target="act_LapPhieuDKDoan" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_1510" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#000000;fontSize=11;" parent="1" source="act_LapPhieuDKDoan" target="act_ThuTienCoc" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_1511" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#000000;fontSize=11;" parent="1" source="act_ThuTienCoc" target="dec_KiemTraCoc" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_1512" value="Đã nộp cọc hợp lệ" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#000000;fontSize=11;" parent="1" source="dec_KiemTraCoc" target="merge_DangKy" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_1513" value="Hủy đoàn / Không cọc" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#000000;fontSize=11;" parent="1" source="dec_KiemTraCoc" target="act_HuyDoanMatCoc" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_1514" value="Kết thúc giao dịch" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#000000;fontSize=11;" parent="1" source="act_HuyDoanMatCoc" target="end" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_1515" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#000000;fontSize=11;" parent="1" source="act_ChonChuyenLe" target="dec_ChoTrong" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_1516" value="Còn chỗ" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#000000;fontSize=11;" parent="1" source="dec_ChoTrong" target="act_ThuTienVeNgay" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_1517" value="Hết chỗ" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#000000;fontSize=11;" parent="1" source="dec_ChoTrong" target="act_BaoHetCho" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_1518" value="Chọn chuyến khác" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#000000;fontSize=11;" parent="1" source="act_BaoHetCho" target="act_ChonChuyenLe" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_1519" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#000000;fontSize=11;" parent="1" source="act_ThuTienVeNgay" target="act_XuatVeLe" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_1520" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#000000;fontSize=11;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="act_XuatVeLe" target="merge_DangKy" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="989.9999999999995" y="630" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_1521" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#000000;fontSize=11;" parent="1" source="merge_DangKy" target="act_ChonHDV" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_1522" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#000000;fontSize=11;" parent="1" source="act_ChonHDV" target="dec_TrungLich" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_1523" value="Hợp lệ (Không trùng lịch)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#000000;fontSize=11;" parent="1" source="dec_TrungLich" target="act_XacNhanPhanCong" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_1524" value="Trùng lịch làm việc" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#000000;fontSize=11;" parent="1" source="dec_TrungLich" target="act_BaoTrungLich" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_1525" value="Chọn lại HDV" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#000000;fontSize=11;" parent="1" source="act_BaoTrungLich" target="act_ChonHDV" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_1526" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#000000;fontSize=11;" parent="1" source="act_XacNhanPhanCong" target="act_DonKhach" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_1527" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#000000;fontSize=11;" parent="1" source="act_DonKhach" target="act_ThucHienTour" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_1528" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#000000;fontSize=11;" parent="1" source="act_ThucHienTour" target="act_KetThucTPHCM" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_1529" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#000000;fontSize=11;" parent="1" source="act_KetThucTPHCM" target="dec_KiemTraLoaiKhach" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_1530" value="Khách đoàn" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#000000;fontSize=11;" parent="1" source="dec_KiemTraLoaiKhach" target="act_QuyetToanDoan" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_1531" value="Khách lẻ" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#000000;fontSize=11;" parent="1" source="dec_KiemTraLoaiKhach" target="merge_QuyetToan" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_1532" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#000000;fontSize=11;" parent="1" source="act_QuyetToanDoan" target="merge_QuyetToan" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_1533" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#000000;fontSize=11;" parent="1" source="merge_QuyetToan" target="act_GuiKhaoSat" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_1534" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#000000;fontSize=11;" parent="1" source="act_GuiKhaoSat" target="act_TiepNhanGopY" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_1535" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#000000;fontSize=11;" parent="1" source="act_TiepNhanGopY" target="end" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_1536" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;strokeColor=#000000;" parent="1" source="act_HuyDoanMatCoc" target="note_1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

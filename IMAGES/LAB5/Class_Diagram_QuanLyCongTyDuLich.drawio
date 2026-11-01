@@ -1,0 +1,335 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram id="ClassDiagram_QuanLyDuLich" name="Class Diagram - Quan Ly Cong Ty Du Lich">
+    <mxGraphModel dx="2895" dy="417" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TourDuLich" value="&lt;p style=&quot;margin:0px;padding:4px;text-align:center;font-weight:bold;&quot;&gt;TourDuLich&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;padding:4px;text-align:left;&quot;&gt;- maTour : String&lt;br&gt;- tenTour : String&lt;br&gt;- soNgay : Integer&lt;br&gt;- soDem : Integer&lt;br&gt;- donGiaKhach : Double&lt;br&gt;- noiKhoiHanh : String = &quot;TP.HCM&quot;&lt;br&gt;- noiKetThuc : String = &quot;TP.HCM&quot;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;padding:4px;text-align:left;&quot;&gt;+ taoTour() : Boolean&lt;br&gt;+ capNhatThongTin() : Boolean&lt;br&gt;+ tinhGiaTour() : Double&lt;br&gt;+ xuatBanLenWebsite() : Boolean&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="5" y="930" width="230" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="NoiDungChan" value="&lt;p style=&quot;margin:0px;padding:4px;text-align:center;font-weight:bold;&quot;&gt;NoiDungChan&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;padding:4px;text-align:left;&quot;&gt;- maNoiDungChan : String&lt;br&gt;- thuTuDung : Integer&lt;br&gt;- tenDiaDiem : String&lt;br&gt;- coDoiPhuongTien : Boolean&lt;br&gt;- coNoiAn : Boolean&lt;br&gt;- coKhachSan : Boolean&lt;br&gt;- loaiKhachSan : Integer&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;padding:4px;text-align:left;&quot;&gt;+ themNoiDungChan() : Boolean&lt;br&gt;+ capNhatDichVu() : Boolean&lt;br&gt;+ kiemTraDoiPhuongTien() : Boolean&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="290" y="225" width="240" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="PhuongTien" value="&lt;p style=&quot;margin:0px;padding:4px;text-align:center;font-weight:bold;&quot;&gt;PhuongTien&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;padding:4px;text-align:left;&quot;&gt;- maPhuongTien : String&amp;nbsp;&lt;br&gt;- tenPhuongTien : String&lt;br&gt;- hangVanChuyen : String&lt;br&gt;- ghiChu : String&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;padding:4px;text-align:left;&quot;&gt;+ thietLapPhuongTien() : Boolean&lt;br&gt;+ traCuuPhuongTien() : PhuongTien&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="-20" y="255" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="DiemThamQuan" value="&lt;p style=&quot;margin:0px;padding:4px;text-align:center;font-weight:bold;&quot;&gt;DiemThamQuan&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;padding:4px;text-align:left;&quot;&gt;- maDiemThamQuan : String&lt;/p&gt;&lt;p style=&quot;margin:0px;padding:4px;text-align:left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- tenDiemThamQuan : String&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;padding:4px;text-align:left;&quot;&gt;- diaDiem : String&lt;br&gt;- noiDung : String&lt;br&gt;- yNghia : String&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;padding:4px;text-align:left;&quot;&gt;+ themDiemThamQuan() : Boolean&lt;br&gt;+ capNhatNoiDung() : Boolean&lt;br&gt;+ xemChiTiet() : String&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry y="530" width="240" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="KhachHang" value="&lt;p style=&quot;margin:0px;padding:4px;text-align:center;font-weight:bold;&quot;&gt;&amp;amp;laquo;Abstract&amp;amp;raquo;&amp;lt;br&amp;gt;&amp;lt;b&amp;gt;KhachHang&amp;lt;/b&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;padding:4px;text-align:left;&quot;&gt;# maKhachHang : String &amp;lt;&amp;lt;PK&amp;gt;&amp;gt;&lt;br/&gt;# hoTen : String&lt;br/&gt;# soDienThoai : String&lt;br/&gt;# diaChi : String&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;padding:4px;text-align:left;&quot;&gt;+ dangKyTour() : Boolean&lt;br/&gt;+ capNhatThongTin() : Boolean&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="1240" y="300" width="230" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="KhachDoan" value="&lt;p style=&quot;margin:0px;padding:4px;text-align:center;font-weight:bold;&quot;&gt;KhachDoan&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;padding:4px;text-align:left;&quot;&gt;- maKhachDoan : String &amp;lt;&amp;lt;PK&amp;gt;&amp;gt;&lt;br/&gt;- tenCoQuan : String&lt;br/&gt;- diaChiCoQuan : String&lt;br/&gt;- dienThoaiCoQuan : String&lt;br/&gt;- nguoiDaiDien : String&lt;br/&gt;- chucVuNguoiDaiDien : String&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;padding:4px;text-align:left;&quot;&gt;+ luuThongTinCSKH() : Boolean&lt;br/&gt;+ traCuuLichSuDangKy() : List&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="920" y="300" width="230" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="KhachLe" value="&lt;p style=&quot;margin:0px;padding:4px;text-align:center;font-weight:bold;&quot;&gt;KhachLe&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;padding:4px;text-align:left;&quot;&gt;- maKhachLe : String&amp;nbsp;&lt;br&gt;- soCMND_CCCD : String&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;padding:4px;text-align:left;&quot;&gt;+ muaVeTheoChuyen() : Boolean&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="1490" y="130" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PhieuDangKyDoan" value="&lt;p style=&quot;margin:0px;padding:4px;text-align:center;font-weight:bold;&quot;&gt;PhieuDangKyDoan&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;padding:4px;text-align:left;&quot;&gt;- maPhieuDK : String&amp;nbsp;&lt;br&gt;- ngayLap : Date&lt;br&gt;- ngayDiYeuCau : Date&lt;br&gt;- diaDiemDonYeuCau : String&lt;br&gt;- soNguoiDi : Integer&lt;br&gt;- coMuaBaoHiem : Boolean&lt;br&gt;- soTienCoc : Double&lt;br&gt;- tongKinhPhiDuKien : Double&lt;br&gt;- soTienConLai : Double&lt;br&gt;- trangThai : String&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;padding:4px;text-align:left;&quot;&gt;+ lapPhieuDangKy() : Boolean&lt;br&gt;+ xacNhanDatCoc() : Boolean&lt;br&gt;+ xuLyMatCoc() : Boolean&lt;br&gt;+ quyetToanKinhPhi() : Double&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="910" y="590" width="240" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="ThanhVienDoan" value="&lt;p style=&quot;margin:0px;padding:4px;text-align:center;font-weight:bold;&quot;&gt;ThanhVienDoan&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;padding:4px;text-align:left;&quot;&gt;- maThanhVien : String&amp;nbsp;&lt;br&gt;- hoTen : String&lt;br&gt;- ngaySinh : Date&lt;br&gt;- soCCCD : String&lt;br&gt;- gioiTinh : String&lt;br&gt;- soDienThoai : String&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;padding:4px;text-align:left;&quot;&gt;+ themThanhVien() : Boolean&lt;br&gt;+ xuatDanhSachBaoHiem() : List&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="530" y="660" width="230" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ChuyenDuLich" value="&lt;p style=&quot;margin:0px;padding:4px;text-align:center;font-weight:bold;&quot;&gt;ChuyenDuLich&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;padding:4px;text-align:left;&quot;&gt;- maChuyen : String&amp;nbsp;&lt;br&gt;- ngayDi : Date&lt;br&gt;- ngayVe : Date&lt;br&gt;- soChoToiDa : Integer&lt;br&gt;- soChoDaDat : Integer&lt;br&gt;- trangThai : String&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;padding:4px;text-align:left;&quot;&gt;+ moChuyenMoi() : Boolean&lt;br&gt;+ kiemTraChoTrong() : Boolean&lt;br&gt;+ capNhatSoCho() : Boolean&lt;br&gt;+ huyChuyen() : Boolean&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="1600" y="1040" width="220" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="VeDuLich" value="&lt;p style=&quot;margin:0px;padding:4px;text-align:center;font-weight:bold;&quot;&gt;VeDuLich&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;padding:4px;text-align:left;&quot;&gt;- maVe : String&amp;nbsp;&lt;br&gt;- ngayXuatVe : Date&lt;br&gt;- giaVe : Double&lt;br&gt;- trangThaiThanhToan : Boolean = True&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;padding:4px;text-align:left;&quot;&gt;+ xuatVe() : Boolean&lt;br&gt;+ huyVe() : Boolean&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="1840" y="115" width="220" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="DiemDon" value="&lt;p style=&quot;margin:0px;padding:4px;text-align:center;font-weight:bold;&quot;&gt;DiemDon&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;padding:4px;text-align:left;&quot;&gt;- maDiemDon : String&amp;nbsp;&lt;br&gt;- tenDiemDon : String&lt;br&gt;- diaChiDon : String&lt;br&gt;- thoiGianDonQuyDinh : Time&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;padding:4px;text-align:left;&quot;&gt;+ themDiemDon() : Boolean&lt;br&gt;+ traCuuLichDon() : String&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="1845" y="390" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="DiemBanVe" value="&lt;p style=&quot;margin:0px;padding:4px;text-align:center;font-weight:bold;&quot;&gt;DiemBanVe&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;padding:4px;text-align:left;&quot;&gt;- maDiemBanVe : String&amp;nbsp;&lt;br&gt;- tenDiemBanVe : String&lt;br&gt;- diaChi : String&lt;br&gt;- soDienThoai : String&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;padding:4px;text-align:left;&quot;&gt;+ ghiNhanBanVe() : Boolean&lt;br&gt;+ thongKeDoanhThu() : Double&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="1670" y="580" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="PhanCong" value="&lt;p style=&quot;margin:0px;padding:4px;text-align:center;font-weight:bold;&quot;&gt;PhanCong&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;padding:4px;text-align:left;&quot;&gt;- maPhanCong : String &amp;lt;&amp;lt;PK&amp;gt;&amp;gt;&lt;br/&gt;- ngayPhanCong : Date&lt;br/&gt;- ngayBatDau : Date&lt;br/&gt;- ngayKetThuc : Date&lt;br/&gt;- luongTourThoaThuan : Double&lt;br/&gt;- vaiTro : String&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;padding:4px;text-align:left;&quot;&gt;+ thucHienPhanCong() : Boolean&lt;br/&gt;+ huyPhanCong() : Boolean&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="1250" y="620" width="240" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="HuongDanVien" value="&lt;p style=&quot;margin:0px;padding:4px;text-align:center;font-weight:bold;&quot;&gt;HuongDanVien&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;padding:4px;text-align:left;&quot;&gt;- maHDV : String&amp;nbsp;&lt;br&gt;- hoTen : String&lt;br&gt;- soDienThoai : String&lt;br&gt;- luongCanBan : Double&lt;br&gt;- chuyenMon : String&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;padding:4px;text-align:left;&quot;&gt;+ kiemTraLichBan() : Boolean&lt;br&gt;+ tinhLuongThang() : Double&lt;br&gt;+ xemLichCongTac() : List&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="1250" y="880" width="240" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="PhieuKhaoSat" value="&lt;p style=&quot;margin:0px;padding:4px;text-align:center;font-weight:bold;&quot;&gt;PhieuKhaoSat&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;padding:4px;text-align:left;&quot;&gt;- maPhieuKhaoSat : String&amp;nbsp;&lt;br&gt;- ngayKhaoSat : Date&lt;br&gt;- diemDanhGiaDichVu : Integer&lt;br&gt;- diemDanhGiaHDV : Integer&lt;br&gt;- diemDanhGiaKhachSan_AnUong : Integer&lt;br&gt;- yKienGopY : String&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;padding:4px;text-align:left;&quot;&gt;+ guiKhaoSatChoKhach() : Boolean&lt;br&gt;+ tiepNhanGopY() : Boolean&lt;br&gt;+ tongHopDanhGiaTour() : Double&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="610" y="220" width="250" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;endSize=14;strokeColor=#000000;" parent="1" source="KhachDoan" target="KhachHang" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1170" y="380" />
+              <mxPoint x="1170" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;endSize=14;strokeColor=#000000;" parent="1" source="KhachLe" target="KhachHang" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_103" value="bao gom" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=diamond;startFill=1;startSize=14;endArrow=none;strokeColor=#000000;" parent="1" source="TourDuLich" target="NoiDungChan" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="870" />
+              <mxPoint x="370" y="870" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lbl_s_104" value="1" style="edgeLabel;html=1;align=left;verticalAlign=bottom;resizable=0;points=[];fontSize=11;fontStyle=1;" parent="edge_103" vertex="1" connectable="0">
+          <mxGeometry x="-0.8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lbl_t_105" value="1..*" style="edgeLabel;html=1;align=right;verticalAlign=bottom;resizable=0;points=[];fontSize=11;fontStyle=1;" parent="edge_103" vertex="1" connectable="0">
+          <mxGeometry x="0.8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_106" value="su dung" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;strokeColor=#000000;" parent="1" source="NoiDungChan" target="PhuongTien" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_s_107" value="0..*" style="edgeLabel;html=1;align=left;verticalAlign=bottom;resizable=0;points=[];fontSize=11;fontStyle=1;" parent="edge_106" vertex="1" connectable="0">
+          <mxGeometry x="-0.8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lbl_t_108" value="0..1" style="edgeLabel;html=1;align=right;verticalAlign=bottom;resizable=0;points=[];fontSize=11;fontStyle=1;" parent="edge_106" vertex="1" connectable="0">
+          <mxGeometry x="0.8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_109" value="tham quan" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;strokeColor=#000000;" parent="1" source="TourDuLich" target="DiemThamQuan" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_s_110" value="0..*" style="edgeLabel;html=1;align=left;verticalAlign=bottom;resizable=0;points=[];fontSize=11;fontStyle=1;" parent="edge_109" vertex="1" connectable="0">
+          <mxGeometry x="-0.8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lbl_t_111" value="1..*" style="edgeLabel;html=1;align=right;verticalAlign=bottom;resizable=0;points=[];fontSize=11;fontStyle=1;" parent="edge_109" vertex="1" connectable="0">
+          <mxGeometry x="0.8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_112" value="to chuc" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=diamond;startFill=1;startSize=14;endArrow=none;strokeColor=#000000;" parent="1" source="TourDuLich" target="ChuyenDuLich" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="930" y="1130" />
+              <mxPoint x="930" y="1130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lbl_s_113" value="1" style="edgeLabel;html=1;align=left;verticalAlign=bottom;resizable=0;points=[];fontSize=11;fontStyle=1;" parent="edge_112" vertex="1" connectable="0">
+          <mxGeometry x="-0.8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lbl_t_114" value="0..*" style="edgeLabel;html=1;align=right;verticalAlign=bottom;resizable=0;points=[];fontSize=11;fontStyle=1;" parent="edge_112" vertex="1" connectable="0">
+          <mxGeometry x="0.8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_115" value="duoc dang ky" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;strokeColor=#000000;" parent="1" source="TourDuLich" target="PhieuDangKyDoan" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_s_116" value="1" style="edgeLabel;html=1;align=left;verticalAlign=bottom;resizable=0;points=[];fontSize=11;fontStyle=1;" parent="edge_115" vertex="1" connectable="0">
+          <mxGeometry x="-0.8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lbl_t_117" value="0..*" style="edgeLabel;html=1;align=right;verticalAlign=bottom;resizable=0;points=[];fontSize=11;fontStyle=1;" parent="edge_115" vertex="1" connectable="0">
+          <mxGeometry x="0.8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_118" value="lap phieu" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;strokeColor=#000000;" parent="1" source="KhachDoan" target="PhieuDangKyDoan" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_s_119" value="1" style="edgeLabel;html=1;align=left;verticalAlign=bottom;resizable=0;points=[];fontSize=11;fontStyle=1;" parent="edge_118" vertex="1" connectable="0">
+          <mxGeometry x="-0.8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lbl_t_120" value="1..*" style="edgeLabel;html=1;align=right;verticalAlign=bottom;resizable=0;points=[];fontSize=11;fontStyle=1;" parent="edge_118" vertex="1" connectable="0">
+          <mxGeometry x="0.8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_121" value="danh sach bao hiem" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=diamond;startFill=1;startSize=14;endArrow=none;strokeColor=#000000;" parent="1" source="PhieuDangKyDoan" target="ThanhVienDoan" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="645" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lbl_s_122" value="1" style="edgeLabel;html=1;align=left;verticalAlign=bottom;resizable=0;points=[];fontSize=11;fontStyle=1;" parent="edge_121" vertex="1" connectable="0">
+          <mxGeometry x="-0.8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lbl_t_123" value="0..*" style="edgeLabel;html=1;align=right;verticalAlign=bottom;resizable=0;points=[];fontSize=11;fontStyle=1;" parent="edge_121" vertex="1" connectable="0">
+          <mxGeometry x="0.8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_124" value="phat hanh" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=diamond;startFill=1;startSize=14;endArrow=none;strokeColor=#000000;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1620" y="1040" as="sourcePoint" />
+            <mxPoint x="1620" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1620" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lbl_s_125" value="1" style="edgeLabel;html=1;align=left;verticalAlign=bottom;resizable=0;points=[];fontSize=11;fontStyle=1;" parent="edge_124" vertex="1" connectable="0">
+          <mxGeometry x="-0.8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lbl_t_126" value="0..*" style="edgeLabel;html=1;align=right;verticalAlign=bottom;resizable=0;points=[];fontSize=11;fontStyle=1;" parent="edge_124" vertex="1" connectable="0">
+          <mxGeometry x="0.8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_127" value="mua ve" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;strokeColor=#000000;" parent="1" source="KhachLe" target="VeDuLich" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_s_128" value="1" style="edgeLabel;html=1;align=left;verticalAlign=bottom;resizable=0;points=[];fontSize=11;fontStyle=1;" parent="edge_127" vertex="1" connectable="0">
+          <mxGeometry x="-0.8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lbl_t_129" value="1..*" style="edgeLabel;html=1;align=right;verticalAlign=bottom;resizable=0;points=[];fontSize=11;fontStyle=1;" parent="edge_127" vertex="1" connectable="0">
+          <mxGeometry x="0.8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_130" value="ban ve" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;strokeColor=#000000;" parent="1" source="DiemBanVe" target="VeDuLich" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1740" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lbl_s_131" value="1" style="edgeLabel;html=1;align=left;verticalAlign=bottom;resizable=0;points=[];fontSize=11;fontStyle=1;" parent="edge_130" vertex="1" connectable="0">
+          <mxGeometry x="-0.8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lbl_t_132" value="0..*" style="edgeLabel;html=1;align=right;verticalAlign=bottom;resizable=0;points=[];fontSize=11;fontStyle=1;" parent="edge_130" vertex="1" connectable="0">
+          <mxGeometry x="0.8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_133" value="diem don quy dinh" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;strokeColor=#000000;" parent="1" source="ChuyenDuLich" target="DiemDon" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1935" y="1120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lbl_s_134" value="1..*" style="edgeLabel;html=1;align=left;verticalAlign=bottom;resizable=0;points=[];fontSize=11;fontStyle=1;" parent="edge_133" vertex="1" connectable="0">
+          <mxGeometry x="-0.8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lbl_t_135" value="1..*" style="edgeLabel;html=1;align=right;verticalAlign=bottom;resizable=0;points=[];fontSize=11;fontStyle=1;" parent="edge_133" vertex="1" connectable="0">
+          <mxGeometry x="0.8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_136" value="don tai" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;strokeColor=#000000;" parent="1" source="DiemDon" target="VeDuLich" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_s_137" value="1" style="edgeLabel;html=1;align=left;verticalAlign=bottom;resizable=0;points=[];fontSize=11;fontStyle=1;" parent="edge_136" vertex="1" connectable="0">
+          <mxGeometry x="-0.8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lbl_t_138" value="0..*" style="edgeLabel;html=1;align=right;verticalAlign=bottom;resizable=0;points=[];fontSize=11;fontStyle=1;" parent="edge_136" vertex="1" connectable="0">
+          <mxGeometry x="0.8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_139" value="phan cong doan" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;strokeColor=#000000;" parent="1" source="PhieuDangKyDoan" target="PhanCong" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_s_140" value="0..1" style="edgeLabel;html=1;align=left;verticalAlign=bottom;resizable=0;points=[];fontSize=11;fontStyle=1;" parent="edge_139" vertex="1" connectable="0">
+          <mxGeometry x="-0.8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lbl_t_141" value="1..*" style="edgeLabel;html=1;align=right;verticalAlign=bottom;resizable=0;points=[];fontSize=11;fontStyle=1;" parent="edge_139" vertex="1" connectable="0">
+          <mxGeometry x="0.8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_142" value="phan cong chuyen" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;strokeColor=#000000;" parent="1" source="ChuyenDuLich" target="PhanCong" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1530" y="1070" />
+              <mxPoint x="1530" y="600" />
+              <mxPoint x="1370" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lbl_s_143" value="0..1" style="edgeLabel;html=1;align=left;verticalAlign=bottom;resizable=0;points=[];fontSize=11;fontStyle=1;" parent="edge_142" vertex="1" connectable="0">
+          <mxGeometry x="-0.8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lbl_t_144" value="1" style="edgeLabel;html=1;align=right;verticalAlign=bottom;resizable=0;points=[];fontSize=11;fontStyle=1;" parent="edge_142" vertex="1" connectable="0">
+          <mxGeometry x="0.8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_145" value="duoc phan cong" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;strokeColor=#000000;" parent="1" source="HuongDanVien" target="PhanCong" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_s_146" value="1" style="edgeLabel;html=1;align=left;verticalAlign=bottom;resizable=0;points=[];fontSize=11;fontStyle=1;" parent="edge_145" vertex="1" connectable="0">
+          <mxGeometry x="-0.8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lbl_t_147" value="0..*" style="edgeLabel;html=1;align=right;verticalAlign=bottom;resizable=0;points=[];fontSize=11;fontStyle=1;" parent="edge_145" vertex="1" connectable="0">
+          <mxGeometry x="0.8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_148" value="khao sat chat luong" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;strokeColor=#000000;" parent="1" source="TourDuLich" target="PhieuKhaoSat" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="980" />
+              <mxPoint x="430" y="490" />
+              <mxPoint x="735" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lbl_s_149" value="1" style="edgeLabel;html=1;align=left;verticalAlign=bottom;resizable=0;points=[];fontSize=11;fontStyle=1;" parent="edge_148" vertex="1" connectable="0">
+          <mxGeometry x="-0.8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lbl_t_150" value="0..*" style="edgeLabel;html=1;align=right;verticalAlign=bottom;resizable=0;points=[];fontSize=11;fontStyle=1;" parent="edge_148" vertex="1" connectable="0">
+          <mxGeometry x="0.8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_151" value="thuc hien khao sat" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;strokeColor=#000000;" parent="1" source="KhachHang" target="PhieuKhaoSat" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1190" y="340" />
+              <mxPoint x="1190" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lbl_s_152" value="1" style="edgeLabel;html=1;align=left;verticalAlign=bottom;resizable=0;points=[];fontSize=11;fontStyle=1;" parent="edge_151" vertex="1" connectable="0">
+          <mxGeometry x="-0.8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lbl_t_153" value="0..*" style="edgeLabel;html=1;align=right;verticalAlign=bottom;resizable=0;points=[];fontSize=11;fontStyle=1;" parent="edge_151" vertex="1" connectable="0">
+          <mxGeometry x="0.8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,233 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram id="Seq_PhanCongHDV" name="Sequence Diagram - Phan Cong Huong Dan Vien">
+    <mxGraphModel dx="2084" dy="1252" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="life_NVDH" value=": NhanVienDieuHanh" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#ffffff;strokeColor=#000000;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="40" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="life_NVDH_line" value="" style="strokeColor=#000000;dashed=1;dashPattern=6 6;strokeWidth=1;html=1;endArrow=none;endFill=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="110" as="sourcePoint" />
+            <mxPoint x="100" y="1200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="life_FrmPC" value=": FrmPhanCongHDV" style="shape=umlBoundary;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#ffffff;strokeColor=#000000;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="50" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="life_FrmPC_line" value="" style="strokeColor=#000000;dashed=1;dashPattern=6 6;strokeWidth=1;html=1;endArrow=none;endFill=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="385" y="110" as="sourcePoint" />
+            <mxPoint x="385" y="1200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="life_SrvPC" value=": PhanCongService" style="shape=umlControl;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#ffffff;strokeColor=#000000;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="700" y="50" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="life_SrvPC_line" value="" style="strokeColor=#000000;dashed=1;dashPattern=6 6;strokeWidth=1;html=1;endArrow=none;endFill=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="110" as="sourcePoint" />
+            <mxPoint x="720" y="1200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="life_HDV" value=": HuongDanVien" style="shape=umlEntity;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#ffffff;strokeColor=#000000;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="50" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="life_HDV_line" value="" style="strokeColor=#000000;dashed=1;dashPattern=6 6;strokeWidth=1;html=1;endArrow=none;endFill=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1060" y="110" as="sourcePoint" />
+            <mxPoint x="1060" y="1200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="life_PC" value=": PhanCong" style="shape=umlEntity;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#ffffff;strokeColor=#000000;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="50" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="life_PC_line" value="" style="strokeColor=#000000;dashed=1;dashPattern=6 6;strokeWidth=1;html=1;endArrow=none;endFill=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1340" y="110" as="sourcePoint" />
+            <mxPoint x="1340" y="1200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="act_frm_2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="379" y="150" width="12" height="980" as="geometry" />
+        </mxCell>
+        <mxCell id="act_srv_2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="714" y="310" width="12" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="act_hdv_1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="1054" y="190" width="12" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="act_hdv_2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="1054" y="400" width="12" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="act_pc_1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="1334" y="560" width="12" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="alt_box_2" value="" style="shape=rect;fillColor=none;strokeColor=#000000;strokeWidth=1.5;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="490" width="1340" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="alt_header_2" value="&lt;b&gt;alt&lt;/b&gt;" style="shape=rect;fillColor=#ffffff;strokeColor=#000000;align=center;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="60" y="490" width="45" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cond1_2" value="[khongTrungLich va thoaQuyDinhSoLuongHDV]" style="text;html=1;strokeColor=none;fillColor=none;fontSize=11;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="120" y="495" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="div1_2" value="" style="strokeColor=#000000;dashed=1;strokeWidth=1.5;html=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="780" as="sourcePoint" />
+            <mxPoint x="1400" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cond2_2" value="[trungLichCongTac == True (Xung dot lich trinh BR06)]" style="text;html=1;strokeColor=none;fillColor=none;fontSize=11;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="70" y="785" width="310" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="div2_2" value="" style="strokeColor=#000000;dashed=1;strokeWidth=1.5;html=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="940" as="sourcePoint" />
+            <mxPoint x="1400" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cond3_2" value="[loai == &quot;ChuyenLe&quot; va daCoHDV (Vuot qua 1 HDV/chuyen)]" style="text;html=1;strokeColor=none;fillColor=none;fontSize=11;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="70" y="945" width="340" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="msg_4001" value="1: yeuCauPhanCongHDV(maDoiTuong, loaiDoiTuong)" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeColor=#000000;fontSize=11;strokeWidth=1.2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="150" as="sourcePoint" />
+            <mxPoint x="380" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_4002" value="2: layDanhSachHDV()" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeColor=#000000;fontSize=11;strokeWidth=1.2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="170" as="sourcePoint" />
+            <mxPoint x="720" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_4003" value="3: getDanhSachHDV()" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeColor=#000000;fontSize=11;strokeWidth=1.2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="725" y="190" as="sourcePoint" />
+            <mxPoint x="1060" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_4004" value="4: dsHDV(maHDV, hoTen, chuyenMon, luongCB)" style="edgeStyle=orthogonalEdgeStyle;dashed=1;html=1;endArrow=open;endSize=8;strokeColor=#000000;fontSize=11;strokeWidth=1.2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1055" y="220" as="sourcePoint" />
+            <mxPoint x="725" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_4005" value="5: hienThiDanhSachHDV()" style="edgeStyle=orthogonalEdgeStyle;dashed=1;html=1;endArrow=open;endSize=8;strokeColor=#000000;fontSize=11;strokeWidth=1.2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="715" y="240" as="sourcePoint" />
+            <mxPoint x="390" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_4006" value="6: hienThiFormPhanCong()" style="edgeStyle=orthogonalEdgeStyle;dashed=1;html=1;endArrow=open;endSize=8;strokeColor=#000000;fontSize=11;strokeWidth=1.2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="260" as="sourcePoint" />
+            <mxPoint x="100" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_4007" value="7: chonHDV(maHDV, ngayBD, ngayKT, vaiTro, luongTour)" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeColor=#000000;fontSize=11;strokeWidth=1.2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="285" as="sourcePoint" />
+            <mxPoint x="380" y="285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_4008" value="8: nhanNut &quot;Luu phan cong&quot;" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeColor=#000000;fontSize=11;strokeWidth=1.2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="310" as="sourcePoint" />
+            <mxPoint x="380" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_4009" value="9: thucHienPhanCong(maHDV, maDoiTuong, loai, ngayBD, ngayKT, luongTour)" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeColor=#000000;fontSize=11;strokeWidth=1.2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="330" as="sourcePoint" />
+            <mxPoint x="715" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_4010" value="10: kiemTraQuyDinhSoLuongHDV(loai, maDoiTuong)" style="edgeStyle=orthogonalEdgeStyle;curved=0;html=1;endArrow=block;endFill=1;strokeColor=#000000;fontSize=11;strokeWidth=1.2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="725" y="360" as="sourcePoint" />
+            <mxPoint x="725" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="765" y="360" />
+              <mxPoint x="765" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_4011" value="11: kiemTraLichBan(ngayBD, ngayKT)" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeColor=#000000;fontSize=11;strokeWidth=1.2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="725" y="400" as="sourcePoint" />
+            <mxPoint x="1060" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_4012" value="12: ketQuaKiemTraLich(khongTrung)" style="edgeStyle=orthogonalEdgeStyle;dashed=1;html=1;endArrow=open;endSize=8;strokeColor=#000000;fontSize=11;strokeWidth=1.2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1055" y="440" as="sourcePoint" />
+            <mxPoint x="725" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_4013" value="13: taoPhanCong(maHDV, maDoiTuong, ngayBD, ngayKT, luongTour)" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeColor=#000000;fontSize=11;strokeWidth=1.2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="725" y="560" as="sourcePoint" />
+            <mxPoint x="1335" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_4014" value="14: xacNhanLuuPhanCong(maPhanCong)" style="edgeStyle=orthogonalEdgeStyle;dashed=1;html=1;endArrow=open;endSize=8;strokeColor=#000000;fontSize=11;strokeWidth=1.2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1335" y="610" as="sourcePoint" />
+            <mxPoint x="725" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_4015" value="15: capNhatLichBan(ngayBD, ngayKT)" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeColor=#000000;fontSize=11;strokeWidth=1.2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="725" y="640" as="sourcePoint" />
+            <mxPoint x="1060" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_4016" value="16: xacNhanCapNhat()" style="edgeStyle=orthogonalEdgeStyle;dashed=1;html=1;endArrow=open;endSize=8;strokeColor=#000000;fontSize=11;strokeWidth=1.2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1055" y="670" as="sourcePoint" />
+            <mxPoint x="725" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_4017" value="17: KetQua.Success(maPhanCong, &quot;Phân công thành công&quot;)" style="edgeStyle=orthogonalEdgeStyle;dashed=1;html=1;endArrow=open;endSize=8;strokeColor=#000000;fontSize=11;strokeWidth=1.2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="715" y="700" as="sourcePoint" />
+            <mxPoint x="390" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_4018" value="18: thongBaoPhanCongThanhCong()" style="edgeStyle=orthogonalEdgeStyle;dashed=1;html=1;endArrow=open;endSize=8;strokeColor=#000000;fontSize=11;strokeWidth=1.2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="730" as="sourcePoint" />
+            <mxPoint x="100" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_4019" value="19: KetQua.Fail(&quot;HDV đã có lịch dẫn tour trong khoảng thời gian này&quot;)" style="edgeStyle=orthogonalEdgeStyle;dashed=1;html=1;endArrow=open;endSize=8;strokeColor=#000000;fontSize=11;strokeWidth=1.2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="715" y="830" as="sourcePoint" />
+            <mxPoint x="390" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_4020" value="20: canhBaoXungDotLichTrinh()" style="edgeStyle=orthogonalEdgeStyle;dashed=1;html=1;endArrow=open;endSize=8;strokeColor=#000000;fontSize=11;strokeWidth=1.2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="870" as="sourcePoint" />
+            <mxPoint x="100" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_4021" value="21: KetQua.Fail(&quot;Chuyến khách lẻ chỉ được phân công đúng 1 HDV cụ thể&quot;)" style="edgeStyle=orthogonalEdgeStyle;dashed=1;html=1;endArrow=open;endSize=8;strokeColor=#000000;fontSize=11;strokeWidth=1.2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="715" y="990" as="sourcePoint" />
+            <mxPoint x="390" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg_4022" value="22: thongBaoViPhamSoLuongHDV()" style="edgeStyle=orthogonalEdgeStyle;dashed=1;html=1;endArrow=open;endSize=8;strokeColor=#000000;fontSize=11;strokeWidth=1.2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="1040" as="sourcePoint" />
+            <mxPoint x="100" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
